@@ -1,0 +1,34 @@
+{
+  "name": "test-task-for-atlant.io",
+  "version": "1.0.0",
+  "description": "Nuxt.js project",
+  "author": "Ilya Starokozhov <grachara@gmail.com>",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt-ts",
+    "build": "nuxt-ts build",
+    "generate": "nuxt-ts generate",
+    "start": "nuxt-ts start",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "nuxt": "^2.0.0",
+    "vue-draggable-resizable": "^2.2.0",
+    "vuetable-2": "^1.7.5",
+    "vuex-persist": "^2.2.0"
+  },
+  "devDependencies": {
+    "@nuxt/typescript-build": "^1.0.1",
+    "@nuxt/typescript-runtime": "^0.4.8",
+    "@types/lodash": "^4.14.155",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^4.19.1",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-vue": "^4.0.0",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^8.0.2"
+  }
+}
