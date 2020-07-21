@@ -13,7 +13,7 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "nuxt": "^2.0.0",
     "vue-draggable-resizable": "^2.2.0",
     "vuetable-2": "^1.7.5",
